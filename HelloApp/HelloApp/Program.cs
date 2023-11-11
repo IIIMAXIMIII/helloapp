@@ -1,3 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace HelloApp;
 
-Console.WriteLine("hello");
+static class HelloApp
+{
+    static void Main()
+    {
+        Console.WriteLine("hello");
+    }
+
+    private static void GreetWhite()
+    {
+        Console.WriteLine("hello white");
+    }
+}
